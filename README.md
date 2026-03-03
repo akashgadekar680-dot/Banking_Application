@@ -124,13 +124,17 @@ Screenshots
 
 Replace these with your actual images in a screenshots folder
 
-Home Page
+Home Page<img width="1338" height="640" alt="Screenshot 2026-03-04 025724" src="https://github.com/user-attachments/assets/613e4aa0-4d4b-4d49-a562-73a51f95368d" />
 
-Account List
 
-Create Account
+Account List<img width="1341" height="636" alt="Screenshot 2026-03-04 025748" src="https://github.com/user-attachments/assets/4e8166b4-07ff-449f-af46-5b79615f8c7d" />
+
+
+Create Account<img width="1345" height="656" alt="Screenshot 2026-03-04 025826" src="https://github.com/user-attachments/assets/b2e3c9a2-730f-4614-b7bd-efc938dd2993" />
+
 
 Deposit / Withdraw
+<img width="1261" height="544" alt="Screenshot 2026-03-04 025843" src="https://github.com/user-attachments/assets/37865392-97be-4c3e-89ed-fc50c50b6d00" />
 
 Thank You
 
