@@ -1,0 +1,54 @@
+<div class="center-wrapper">
+
+  <div class="table-container">
+
+    <h2 class="table-title">Bank Accounts</h2>
+
+    <table class="table custom-table">
+
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>Account Holder</th>
+          <th>Balance</th>
+          <th style="width: 500px;">Actions</th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <tr *ngFor="let account of accounts">
+
+          <td>{{ account.id }}</td>
+          <td>{{ account.accountHolderName }}</td>
+          <td class="balance">₹ {{ account.balance }}</td>
+
+          <td>
+            <button class="btn btn-sm btn-success me-2"
+                    (click)="deposit(account.id!)">
+              Deposit
+            </button>
+
+            <button class="btn btn-sm btn-warning me-2"
+                    (click)="withdraw(account.id!)">
+              Withdraw
+            </button>
+
+            <button class="btn btn-sm btn-info me-2"
+                    (click)="view(account.id!)">
+              View
+            </button>
+
+            <button class="btn btn-sm btn-danger"
+                    (click)="delete(account.id!)">
+              Delete
+            </button>
+          </td>
+
+        </tr>
+      </tbody>
+
+    </table>
+
+  </div>
+
+</div>

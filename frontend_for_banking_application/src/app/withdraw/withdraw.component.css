@@ -1,0 +1,36 @@
+.create-wrapper {
+  height: 90vh;
+  background: linear-gradient(to right, #fff3e0, #f8f9fa);
+}
+
+.create-card {
+  width: 400px;
+  border-radius: 15px;
+}
+
+.title {
+  color: #dc3545;
+  font-weight: 600;
+}
+
+.custom-input {
+  border-radius: 8px;
+  padding: 10px;
+}
+
+.custom-input:focus {
+  box-shadow: 0 0 5px rgba(220, 53, 69, 0.5);
+  border-color: #dc3545;
+}
+
+.custom-btn {
+  background-color: #dc3545;
+  color: white;
+  border-radius: 8px;
+  padding: 10px;
+  transition: 0.3s;
+}
+
+.custom-btn:hover {
+  background-color: #bb2d3b;
+}

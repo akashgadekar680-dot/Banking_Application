@@ -1,0 +1,45 @@
+<div class="create-wrapper d-flex justify-content-center">
+
+    <div class="card p-4 shadow create-card">
+
+        <h2 class="text-center mb-4 title">Create Account</h2>
+
+        <div *ngIf="accountCreate" class="alert alert-success text-center">
+            Account Created Successfully ...
+        </div>
+
+        <form (ngSubmit)="onSubmit()" #form="ngForm">
+
+            <div class="mb-3">
+                <label class="form-label">Account Holder Name</label>
+                <input 
+                    type="text" 
+                    name="accountHolderName" 
+                    class="form-control custom-input"
+                    placeholder="Enter Account Holder Name"
+                    [(ngModel)]="account.accountHolderName"
+                    required
+                />
+            </div>
+
+            <div class="mb-3">
+                <label class="form-label">Balance</label>
+                <input 
+                    type="number" 
+                    name="balance" 
+                    class="form-control custom-input"
+                    placeholder="Enter Balance"
+                    [(ngModel)]="account.balance"
+                    required
+                />
+            </div>
+
+            <button type="submit" class="btn custom-btn w-100">
+                Submit
+            </button>
+
+        </form>
+
+    </div>
+
+</div>

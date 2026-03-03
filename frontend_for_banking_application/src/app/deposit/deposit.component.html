@@ -1,0 +1,40 @@
+<div class="create-wrapper d-flex justify-content-center align-items-center">
+
+  <div class="card p-4 shadow create-card">
+
+    <h2 class="text-center mb-4 title">Deposit Amount</h2>
+
+    <div *ngIf="successMessage" class="alert alert-success text-center">
+      {{ successMessage }}
+    </div>
+
+    <div *ngIf="errorMessage" class="alert alert-danger text-center">
+      {{ errorMessage }}
+    </div>
+
+    <form (ngSubmit)="onSubmit()" #form="ngForm">
+
+      <div class="mb-3">
+        <label class="form-label">Balance</label>
+      <input 
+  type="number" 
+  name="balance" 
+  class="form-control custom-input"
+  placeholder="Enter Deposit Amount"
+  [(ngModel)]="depositAmount"
+  required
+/>
+      </div>
+
+      <button 
+        type="submit" 
+        class="btn custom-btn w-100"
+        [disabled]="form.invalid">
+        Submit
+      </button>
+
+    </form>
+
+  </div>
+
+</div>

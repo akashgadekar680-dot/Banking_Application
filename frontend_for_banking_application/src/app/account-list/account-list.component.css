@@ -1,0 +1,68 @@
+/* Background wrapper */
+.center-wrapper {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #1e3c72, #2a5298);
+  padding: 30px;
+}
+
+/* Container */
+.table-container {
+  width: 85%;
+  background: white;
+  padding: 25px;
+  border-radius: 20px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+}
+
+/* Title */
+.table-title {
+  text-align: center;
+  margin-bottom: 20px;
+  font-weight: 600;
+  color: #1e3c72;
+}
+
+/* Table styling */
+.custom-table {
+  width: 100%;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+/* Header */
+.custom-table thead {
+  background: linear-gradient(90deg, #1e3c72, #2a5298);
+  color: white;
+  text-align: center;
+}
+
+.custom-table th {
+  padding: 15px;
+}
+
+/* Body rows */
+.custom-table td {
+  text-align: center;
+  padding: 15px;
+  vertical-align: middle;
+}
+
+/* Hover effect */
+.custom-table tbody tr:hover {
+  background-color: #f1f5ff;
+  transition: 0.3s ease;
+}
+
+/* Balance highlight */
+.balance {
+  font-weight: bold;
+  color: #2a5298;
+}
+
+/* Button spacing */
+button {
+  min-width: 75px;
+}

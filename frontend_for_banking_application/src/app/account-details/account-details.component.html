@@ -1,0 +1,26 @@
+<div class="details-wrapper">
+<button class="back-btn" (click)="goBack()">⬅ Back</button>
+  <div class="details-card">
+
+    
+
+    <h2 class="title">Account Information</h2>
+
+    <div class="detail-row">
+      <span class="label">Account ID</span>
+      <span class="value">{{ account.id }}</span>
+    </div>
+
+    <div class="detail-row">
+      <span class="label">Account Holder Name</span>
+      <span class="value">{{ account.accountHolderName }}</span>
+    </div>
+
+    <div class="detail-row">
+      <span class="label">Balance</span>
+      <span class="value balance">₹ {{ account.balance }}</span>
+    </div>
+
+  </div>
+
+</div>

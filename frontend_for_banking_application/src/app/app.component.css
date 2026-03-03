@@ -1,0 +1,31 @@
+/* Gradient Navbar */
+.custom-navbar {
+    background: linear-gradient(135deg, #6a79b9, #bc9bdd);
+    padding: 12px 0;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Navbar links */
+.nav-link {
+    color: white !important;
+    margin-left: 15px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+/* Hover effect */
+.nav-link:hover {
+    color: #ffd700 !important;
+    transform: translateY(-2px);
+}
+
+/* Active link style */
+.active-link {
+    border-bottom: 2px solid #ffd700;
+    font-weight: 600;
+}
+
+/* Brand hover */
+.navbar-brand {
+    color: #ffd700 !important;
+}
